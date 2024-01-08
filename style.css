@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex: 1 1 0;
@@ -74,4 +80,46 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     width: 500px;
+}
+
+.content>.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    padding: 25px 0;
+}
+
+
+.content>.image-with-text>.images,
+.content>.image-with-text>.texts {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.content>.image-with-text>.images {
+    padding: 25px 0 5px 0;
+}
+
+.content>.image-with-text>.texts {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.content>.image-with-text>.images>.first-img,
+.content>.image-with-text>.images>.second-img,
+.content>.image-with-text>.images>.third-img,
+.content>.image-with-text>.images>.fourth-img {
+    border: #3882F6 2px solid;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.content>.image-with-text>.texts>.first-text,
+.content>.image-with-text>.texts>.second-second,
+.content>.image-with-text>.texts>.third-third,
+.content>.image-with-text>.texts>.fourth-fourth {
+    width: 120px;
 }
