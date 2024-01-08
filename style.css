@@ -124,3 +124,25 @@ button {
 .content>.image-with-text>.texts>.fourth-fourth {
     width: 120px;
 }
+
+.qoutes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.qoutes>.content {
+    font-size: 36px;
+    font-family: italic;
+    color: #1F2937;
+    padding: 0 280px;
+}
+
+.qoutes>.author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-right: 290px;
+    align-self: flex-end;
+}
