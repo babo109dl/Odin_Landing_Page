@@ -8,8 +8,20 @@ a {
     text-decoration: none;
 }
 
-a:active, a:hover, a:link, a:visited {
+a:active,
+a:hover,
+a:link,
+a:visited {
     color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    width: 100px;
 }
 
 .header {
@@ -33,4 +45,33 @@ a:active, a:hover, a:link, a:visited {
     gap: 20px;
     font-size: 18px;
     padding-right: 20px;
+}
+
+.header.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 260px;
+}
+
+.header.content>.content-and-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header.content>img {
+    padding-right: 20px;
+}
+
+.content-and-signup>span:nth-child(1) {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.content-and-signup>span:nth-child(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
 }
