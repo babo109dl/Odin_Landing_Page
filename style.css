@@ -27,7 +27,7 @@ button {
     border-radius: 5px;
     padding: 5px 20px;
     color: #F9FAF8;
-    width: 100px;
+    width: 120px;
 }
 
 .header {
@@ -145,4 +145,38 @@ button {
     color: #1F2937;
     padding-right: 290px;
     align-self: flex-end;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    background-color: #F9FAF8;
+}
+
+.signup-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #3882F6 2px solid;
+    width: 70%;
+    height: 170px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.signup-card>.white-border-button {
+    border: #F9FAF8 2px solid;
+}
+
+.signup-texts>.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup-texts>.signup-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
 }
